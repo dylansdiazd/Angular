@@ -4,7 +4,7 @@
     }
 
     .container__content {
-        width: 800px;
+        width: 95%;
         height: 1000px;
         display: flex;
         flex-direction: column;
@@ -14,8 +14,8 @@
     }
 
     .content__cover > img {
-        width: 800px;
-        height: 600px;
+        width: 100%;
+        height: auto;
         display: flex;
         justify-content: flex-start;
         padding-bottom: 25px;
@@ -23,8 +23,11 @@
 
     .content__title > h1{
         padding-bottom: 25px;
+        text-align: center;
     }
 
     .content__description > p{
         color: #f5f5f5d2;
+        font-size: 1.2rem;
+        padding: 5px;
     }

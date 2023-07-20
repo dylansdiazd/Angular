@@ -1,14 +1,18 @@
-.menu__title__container{
-    color: #fff;
-}
-
-.menu__title__container > h1{
-    margin: 20px 0 20px 0;
-    font-size: 120px;
+.menu__title__container>h1 {
+    font-size: 8rem;
     display: flex;
     justify-content: center;
+    width: 98%;
+    text-align: center;
 }
 
-.menu__title__container > hr{
+.menu__title__container>hr {
     margin: 5px 0 5px 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    .menu__title__container>h1 {
+        font-size: 5rem;
+    }
 }
